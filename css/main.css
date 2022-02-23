@@ -108,9 +108,22 @@ body {
   height: 100%;
 }
 
+header, main, footer {
+    background-color: #ffe6f2;
+    border: 5px dotted #ffffff;
+    color: #ff99cc;
+    font-size: 1.6em;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
@@ -123,6 +136,7 @@ body {
   display: flex;
   line-height: 1.5em;
   font-size: 1.6em;
+  flex-flow: row wrap;
   background-color: #ffe6f2;
   height: 300px;
   width: 30%;
